@@ -4,6 +4,8 @@ BUILD_DIR=$1
 
 ls $BUILD_DIR
 
+sleep 10000
+
 CONFIG_FILE="`ls $BUILD_DIR | grep config`"
 
 
